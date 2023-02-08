@@ -1,0 +1,68 @@
+body {
+    background: hsl(30, 38%, 92%);
+}
+
+.productCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.productImage {
+    display: grid;
+}
+
+.productImage > img {
+    max-width: 100%;
+    min-height:auto; 
+}
+
+.productInfo {
+    display: grid;
+}
+
+.productInfo > p {
+    font-family: './Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.productPrice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+}
+
+button {
+    grid-column: 1 / -1;
+    background-color: hsl(158, 26%, 43%);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.perfurme {
+    justify-content: left;
+    font-size: 15px;
+    font-family: Fraunces, serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color:rgb(171, 177, 181)
+}
+
+.discountPrice {
+    color: hsl(158, 26%, 43%);;
+    font-size: 50px;
+    font-family: Fraunces, serif;
+    font-style: italic;
+}
